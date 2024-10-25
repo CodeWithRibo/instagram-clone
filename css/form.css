@@ -1,0 +1,108 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bdbbbb;
+    padding: 50px 30px;
+}
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-form img { 
+    width: 230px;
+    height: 100px;
+    object-fit: cover;
+}
+.flex-login-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+form input {
+    padding: 9px 0px 7px 8px;
+    width: 258px;
+    margin: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid #bdbbbb;
+}
+form button {
+    margin: 10px;
+    background-color: #41B2FB; 
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 0px 7px 8px;
+    width: 267px;
+    border-radius: 10px;
+}
+
+.option-line  {
+    display: flex;
+    align-items: center;
+}
+.option-line h1 {
+    border-top: 1px solid #DBDBDB;
+    width:110px;
+}
+.or-option p {
+    margin: 0 18px;
+    color: #737373;
+    font-weight: 700;
+}
+.flex-option {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.option-fb a {
+    margin-left: 10px;
+    color: #385185;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+.forgot-pass a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #00376B;
+}
+/* ----------------- */
+/* Option Section */
+/* ----------------- */
+.no-account {
+  margin-top: 10px;
+  margin-bottom: 0;
+  border: 1px solid #bdbbbb;
+  padding: 25px 70px;
+ 
+}
+.text-signup {
+    font-size: 14px;
+}
+.no-account a {
+ text-decoration: none;
+ color: #0095F6;  
+ font-weight: 600; 
+}
+.get-app p {
+    margin: 20px;
+    font-size: 14px;
+}
+.img-playstore {
+    width: 134.28px;
+}
+.img-microsoft {
+    width: 110.77px;
+}
